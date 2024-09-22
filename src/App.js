@@ -4,6 +4,7 @@ import { Component } from 'react';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
+import Services from './Components/Services';
 
 export default class App extends Component{
   state ={
@@ -14,6 +15,7 @@ export default class App extends Component{
     return (
       <div>
         <Navbar />
+        <Services />
         <Home />
         <About />
       </div>
